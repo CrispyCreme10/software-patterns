@@ -8,12 +8,7 @@ namespace Strategy
     {
         public static Duck CreateSimpleDuck()
         {
-            return new Duck
-            {
-                fly = new SimpleFly(),
-                quack = new SimpleQuack(),
-                swim = new SimpleSwim()
-            };
+            return new Duck();
         }
 
         public static Duck CreateExtremeDuck()
